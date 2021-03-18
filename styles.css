@@ -1,0 +1,94 @@
+/*full webpage*/
+div.main{
+    background-color: transparent; 
+    width: 100vw; 
+    height: 100vh;
+    text-align: center;
+    display: block;
+}
+/*div which holds all the buttons*/
+div.infoButtonDiv{
+    background-color: transparent; 
+    margin: auto; 
+    max-width: 900px;
+}
+/*webpage title*/
+label.title{
+    background-color: transparent;
+    display: block;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large; 
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+/*unclicked button*/
+.infoRadioButton {
+    display: inline-block;
+    width: 220px;
+    height: 120px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 10px solid white; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    text-transform: uppercase; 
+    /* overflow-wrap: normal;  */
+    margin: 10px 10px;      
+}
+.containerButton span{
+    display: table-cell;
+    vertical-align: middle;
+}
+/* Hide the browser's default radio button */
+.containerButton input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+/*hovered button and clicked button*/
+.containerButton:hover input ~ .infoRadioButton, .containerButton input:checked ~ .infoRadioButton  {
+    background-color: #AC2B37 !important;
+}
+
+/* test div */
+div.test{
+    background-color: salmon;
+    text-align: left;
+    max-width: 1000px;
+    width: 880px;
+    height: auto; 
+    position: absolute;
+    float: left;
+    display: none;
+    margin: auto 15px;
+}
+
+/* Styles for inner content */
+header, h2, h3{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-transform: capitalize;  
+}
+header{
+    color: #AC2B37;
+    font-size: x-large; 
+}
+h2{
+    color: black;
+    font-size: large; 
+}
+h3{
+    color: black;
+    font-size: medium; 
+}
+p, ul{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium; 
+    font-weight: normal;
+}

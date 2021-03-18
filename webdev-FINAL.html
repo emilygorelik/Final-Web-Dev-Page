@@ -1,0 +1,406 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+
+<div class="main" id="main">
+    <label class="title">campus emergency guide</label>
+    <div class="infoButtonDiv" id="infoButtonDiv_4columns">
+        <label class="containerButton" id="container_4c_001">
+            <input type="radio" name="group" class="infoButton4" id="infoButton_4c_001"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">emergency contacts & resources</span>
+        </label>
+
+        <label class="containerButton" id="container_4c_002">
+            <input type="radio" name="group" class="infoButton4" id="infoButton_4c_002"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">reporting emergencies</span>
+        </label>
+
+        <label class="containerButton" id="container_4c_003">
+            <input type="radio" name="group" class="infoButton4" id="infoButton_4c_003"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">active shooter</span>
+        </label>
+        <label class="containerButton" id="container_4c_004">
+            <input type="radio" name="group" class="infoButton4" id="infoButton_4c_004"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">hostage situation</span>
+        </label>
+        <div id="infoText_4c_001" class="infoText collapse"></div>
+        <div id="infoText_4c_002" class="infoText collapse"></div>
+        <div id="infoText_4c_003" class="infoText collapse"></div>
+        <div id="infoText_4c_004" class="infoText collapse"></div>
+        <label class="containerButton" id="container_4c_005">
+            <input type="radio" name="group" class="infoButton4" id="infoButton_4c_005"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">lockdown</span>
+        </label>
+        <label class="containerButton" id="container_4c_006">
+            <input type="radio" name="group" class="infoButton4" id="infoButton_4c_006"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">shelter-in-place</span>
+        </label>
+        <label class="containerButton" id="container_4c_007">
+            <input type="radio" name="group" class="infoButton4" id="infoButton_4c_007"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">fire</span>
+        </label>
+        <label class="containerButton" id="container_4c_008">
+            <input type="radio" name="group" class="infoButton4" id="infoButton_4c_008"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">fire evacuation</span>
+        </label>
+        <div id="infoText_4c_005" class="infoText collapse"></div>
+        <div id="infoText_4c_006" class="infoText collapse"></div>
+        <div id="infoText_4c_007" class="infoText collapse"></div>
+        <div id="infoText_4c_008" class="infoText collapse"></div>
+        <label class="containerButton" id="container_4c_009">
+            <input type="radio" name="group" class="infoButton4" id="infoButton_4c_009"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">bomb threat</span>
+        </label>
+        <label class="containerButton" id="container_4c_010">
+            <input type="radio" name="group" class="infoButton4" id="infoButton_4c_010"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">suspicous package</span>
+        </label>
+        <label class="containerButton" id="container_4c_011">
+            <input type="radio" name="group" class="infoButton4" id="infoButton_4c_011"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">hazardous material incident</span>
+        </label>
+        <label class="containerButton" id="container_4c_012">
+            <input type="radio" name="group" class="infoButton4" id="infoButton_4c_012"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">emergency notifications</span>
+        </label>
+        <div id="infoText_4c_009" class="infoText collapse"></div>
+        <div id="infoText_4c_010" class="infoText collapse"></div>
+        <div id="infoText_4c_011" class="infoText collapse"></div>
+        <div id="infoText_4c_012" class="infoText collapse"></div>
+        <label class="containerButton" id="container_4c_013">
+            <input type="radio" name="group" class="infoButton4" id="infoButton_4c_013"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">evacuating the disabled</span>
+        </label>
+        <label class="containerButton" id="container_4c_014">
+            <input type="radio" name="group" class="infoButton4" id="infoButton_4c_014"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">medical emergency</span>
+        </label>
+        <label class="containerButton" id="container_4c_015">
+            <input type="radio" name="group" class="infoButton4" id="infoButton_4c_015"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">student in distress</span>
+        </label>
+        <label class="containerButton" id="container_4c_016">
+            <input type="radio" name="group" class="infoButton4" id="infoButton_4c_016"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">weather emergency</span>
+        </label>
+        <div id="infoText_4c_013" class="infoText collapse"></div>
+        <div id="infoText_4c_014" class="infoText collapse"></div>
+        <div id="infoText_4c_015" class="infoText collapse"></div>
+        <div id="infoText_4c_016" class="infoText collapse"></div>
+    </div>
+    <div class="infoButtonDiv" id="infoButtonDiv_3columns">
+        <label class="containerButton" id="container_3c_001">
+            <input type="radio" name="group" class="infoButton3" id="infoButton_3c_001"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">emergency contacts & resources</span>
+        </label>
+        <label class="containerButton" id="container_3c_002">
+            <input type="radio" name="group" class="infoButton3" id="infoButton_3c_002"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">reporting emergencies</span>
+        </label>
+        <label class="containerButton" id="container_3c_003">
+            <input type="radio" name="group" class="infoButton3" id="infoButton_3c_003"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">active shooter</span>
+        </label>
+        <div id="infoText_3c_001" class="infoText collapse"></div>
+        <div id="infoText_3c_002" class="infoText collapse"></div>
+        <div id="infoText_3c_003" class="infoText collapse"></div>
+        <label class="containerButton" id="container_3c_004">
+            <input type="radio" name="group" class="infoButton3" id="infoButton_3c_004"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">hostage situation</span>
+        </label>
+        <label class="containerButton" id="container_3c_005">
+            <input type="radio" name="group" class="infoButton3" id="infoButton_3c_005"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">lockdown</span>
+        </label>
+        <label class="containerButton" id="container_3c_006">
+            <input type="radio" name="group" class="infoButton3" id="infoButton_3c_006"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">shelter-in-place</span>
+        </label>
+
+        <div id="infoText_3c_004" class="infoText collapse"></div>
+        <div id="infoText_3c_005" class="infoText collapse"></div>
+        <div id="infoText_3c_006" class="infoText collapse"></div>
+        <label class="containerButton" id="container_3c_007">
+            <input type="radio" name="group" class="infoButton3" id="infoButton_3c_007"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">fire</span>
+        </label>
+        <label class="containerButton" id="container_3c_008">
+            <input type="radio" name="group" class="infoButton3" id="infoButton_3c_008"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">fire evacuation</span>
+        </label>
+        <label class="containerButton" id="container_3c_009">
+            <input type="radio" name="group" class="infoButton3" id="infoButton_3c_009"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">bomb threat</span>
+        </label>
+        <div id="infoText_3c_007" class="infoText collapse"></div>
+        <div id="infoText_3c_008" class="infoText collapse"></div>
+        <div id="infoText_3c_009" class="infoText collapse"></div>
+        <label class="containerButton" id="container_3c_010">
+            <input type="radio" name="group" class="infoButton3" id="infoButton_3c_010"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">suspicous package</span>
+        </label>
+        <label class="containerButton" id="container_3c_011">
+            <input type="radio" name="group" class="infoButton3" id="infoButton_3c_011"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">hazardous material incident</span>
+        </label>
+        <label class="containerButton" id="container_3c_012">
+            <input type="radio" name="group" class="infoButton3" id="infoButton_3c_012"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">emergency notifications</span>
+        </label>
+        <div id="infoText_3c_010" class="infoText collapse"></div>
+        <div id="infoText_3c_011" class="infoText collapse"></div>
+        <div id="infoText_3c_012" class="infoText collapse"></div>
+        <label class="containerButton" id="container_3c_013">
+            <input type="radio" name="group" class="infoButton3" id="infoButton_3c_013"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">evacuating the disabled</span>
+        </label>
+        <label class="containerButton" id="container_3c_014">
+            <input type="radio" name="group" class="infoButton3" id="infoButton_3c_014"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">medical emergency</span>
+        </label>
+        <label class="containerButton" id="container_3c_015">
+            <input type="radio" name="group" class="infoButton3" id="infoButton_3c_015"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">student in distress</span>
+        </label>
+        <div id="infoText_3c_013" class="infoText collapse"></div>
+        <div id="infoText_3c_014" class="infoText collapse"></div>
+        <div id="infoText_3c_015" class="infoText collapse"></div>
+        <label class="containerButton" id="container_3c_016">
+            <input type="radio" name="group" class="infoButton3" id="infoButton_3c_016"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">weather emergency</span>
+        </label>
+        <div id="infoText_3c_016" class="infoText collapse"></div>
+    </div>
+    <div class="infoButtonDiv" id="infoButtonDiv_2columns">
+        <label class="containerButton" id="container_2c_001">
+            <input type="radio" name="group" class="infoButton2" id="infoButton_2c_001"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">emergency contacts & resources</span>
+        </label>
+
+        <label class="containerButton" id="container_2c_002">
+            <input type="radio" name="group" class="infoButton2" id="infoButton_2c_002"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">reporting emergencies</span>
+        </label>
+        <div id="infoText_2c_001" class="infoText collapse"></div>
+        <div id="infoText_2c_002" class="infoText collapse"></div>
+        <label class="containerButton" id="container_2c_003">
+            <input type="radio" name="group" class="infoButton2" id="infoButton_2c_003"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">active shooter</span>
+        </label>
+        <label class="containerButton" id="container_2c_004">
+            <input type="radio" name="group" class="infoButton2" id="infoButton_2c_004"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">hostage situation</span>
+        </label>
+        <div id="infoText_2c_003" class="infoText collapse"></div>
+        <div id="infoText_2c_004" class="infoText collapse"></div>
+        <label class="containerButton" id="container_2c_005">
+            <input type="radio" name="group" class="infoButton2" id="infoButton_2c_005"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">lockdown</span>
+        </label>
+        <label class="containerButton" id="container_2c_006">
+            <input type="radio" name="group" class="infoButton2" id="infoButton_2c_006"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">shelter-in-place</span>
+        </label>
+        <div id="infoText_2c_005" class="infoText collapse"></div>
+        <div id="infoText_2c_006" class="infoText collapse"></div>
+        <label class="containerButton" id="container_2c_007">
+            <input type="radio" name="group" class="infoButton2" id="infoButton_2c_007"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">fire</span>
+        </label>
+        <label class="containerButton" id="container_2c_008">
+            <input type="radio" name="group" class="infoButton2" id="infoButton_2c_008"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">fire evacuation</span>
+        </label>
+        <div id="infoText_2c_007" class="infoText collapse"></div>
+        <div id="infoText_2c_008" class="infoText collapse"></div>
+        <label class="containerButton" id="container_2c_009">
+            <input type="radio" name="group" class="infoButton2" id="infoButton_2c_009"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">bomb threat</span>
+        </label>
+        <label class="containerButton" id="container_2c_010">
+            <input type="radio" name="group" class="infoButton2" id="infoButton_2c_010"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">suspicous package</span>
+        </label>
+        <div id="infoText_2c_009" class="infoText collapse"></div>
+        <div id="infoText_2c_010" class="infoText collapse"></div>
+        <label class="containerButton" id="container_2c_011">
+            <input type="radio" name="group" class="infoButton2" id="infoButton_2c_011"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">hazardous material incident</span>
+        </label>
+        <label class="containerButton" id="container_2c_012">
+            <input type="radio" name="group" class="infoButton2" id="infoButton_2c_012"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">emergency notifications</span>
+        </label>
+        <div id="infoText_2c_011" class="infoText collapse"></div>
+        <div id="infoText_2c_012" class="infoText collapse"></div>
+        <label class="containerButton" id="container_2c_013">
+            <input type="radio" name="group" class="infoButton2" id="infoButton_2c_013"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">evacuating the disabled</span>
+        </label>
+        <label class="containerButton" id="container_2c_014">
+            <input type="radio" name="group" class="infoButton2" id="infoButton_2c_014"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">medical emergency</span>
+        </label>
+        <div id="infoText_2c_013" class="infoText collapse"></div>
+        <div id="infoText_2c_014" class="infoText collapse"></div>
+        <label class="containerButton" id="container_2c_015">
+            <input type="radio" name="group" class="infoButton2" id="infoButton_2c_015"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">student in distress</span>
+        </label>
+        <label class="containerButton" id="container_2c_016">
+            <input type="radio" name="group" class="infoButton2" id="infoButton_2c_016"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">weather emergency</span>
+        </label>
+        <div id="infoText_2c_015" class="infoText collapse"></div>
+        <div id="infoText_2c_016" class="infoText collapse"></div>
+    </div>
+    <div class="infoButtonDiv" id="infoButtonDiv_1columns">
+        <label class="containerButton" id="container_1c_001">
+            <input type="radio" name="group" class="infoButton1" id="infoButton_1c_001"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">emergency contacts & resources</span>
+        </label>
+        <div id="infoText_1c_001" class="infoText collapse"></div>
+        <label class="containerButton" id="container_1c_002">
+            <input type="radio" name="group" class="infoButton1" id="infoButton_1c_002"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">reporting emergencies</span>
+        </label>
+        <div id="infoText_1c_002" class="infoText collapse"></div>
+        <label class="containerButton" id="container_1c_003">
+            <input type="radio" name="group" class="infoButton1" id="infoButton_1c_003"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">active shooter</span>
+        </label>
+        <div id="infoText_1c_003" class="infoText collapse"></div>
+        <label class="containerButton" id="container_1c_004">
+            <input type="radio" name="group" class="infoButton1" id="infoButton_1c_004"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">hostage situation</span>
+        </label>
+        <div id="infoText_1c_004" class="infoText collapse"></div>
+        <label class="containerButton" id="container_1c_005">
+            <input type="radio" name="group" class="infoButton1" id="infoButton_1c_005"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">lockdown</span>
+        </label>
+        <div id="infoText_1c_005" class="infoText collapse"></div>
+        <label class="containerButton" id="container_1c_006">
+            <input type="radio" name="group" class="infoButton1" id="infoButton_1c_006"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">shelter-in-place</span>
+        </label>
+        <div id="infoText_1c_006" class="infoText collapse"></div>
+        <label class="containerButton" id="container_1c_007">
+            <input type="radio" name="group" class="infoButton1" id="infoButton_1c_007"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">fire</span>
+        </label>
+        <div id="infoText_1c_007" class="infoText collapse"></div>
+        <label class="containerButton" id="container_1c_008">
+            <input type="radio" name="group" class="infoButton1" id="infoButton_1c_008"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">fire evacuation</span>
+        </label>
+        <div id="infoText_1c_008" class="infoText collapse"></div>
+        <label class="containerButton" id="container_1c_009">
+            <input type="radio" name="group" class="infoButton1" id="infoButton_1c_009"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">bomb threat</span>
+        </label>
+        <div id="infoText_1c_009" class="infoText collapse"></div>
+        <label class="containerButton" id="container_1c_010">
+            <input type="radio" name="group" class="infoButton1" id="infoButton_1c_010"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">suspicous package</span>
+        </label>
+        <div id="infoText_1c_010" class="infoText collapse"></div>
+        <label class="containerButton" id="container_1c_011">
+            <input type="radio" name="group" class="infoButton1" id="infoButton_1c_011"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">hazardous material incident</span>
+        </label>
+        <div id="infoText_1c_011" class="infoText collapse"></div>
+        <label class="containerButton" id="container_1c_012">
+            <input type="radio" name="group" class="infoButton1" id="infoButton_1c_012"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">emergency notifications</span>
+        </label>
+        <div id="infoText_1c_012" class="infoText collapse"></div>
+        <label class="containerButton" id="container_1c_013">
+            <input type="radio" name="group" class="infoButton1" id="infoButton_1c_013"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">evacuating the disabled</span>
+        </label>
+        <div id="infoText_1c_013" class="infoText collapse"></div>
+        <label class="containerButton" id="container_1c_014">
+            <input type="radio" name="group" class="infoButton1" id="infoButton_1c_014"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">medical emergency</span>
+        </label>
+        <div id="infoText_1c_014" class="infoText collapse"></div>
+        <label class="containerButton" id="container_1c_015">
+            <input type="radio" name="group" class="infoButton1" id="infoButton_1c_015"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">student in distress</span>
+        </label>
+        <div id="infoText_1c_015" class="infoText collapse"></div>
+        <label class="containerButton" id="container_1c_016">
+            <input type="radio" name="group" class="infoButton1" id="infoButton_1c_016"
+                onclick="buttonClicked(this.id)">
+            <span class="infoRadioButton">weather emergency</span>
+        </label>
+        <div id="infoText_1c_016" class="infoText collapse"></div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="scripts.js"></script>
